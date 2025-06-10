@@ -33,7 +33,7 @@ bash
 git clone https://github.com/tu_usuario/project_domina.git
 cd project_domina
 
-docker-compose down -v   # Limpia contenedores 
+docker-compose down -v   # Limpia contenedores usarse antes de elproximo comando
 docker-compose up --build #Construye y sube contenedores
 
 ## Rutas 
