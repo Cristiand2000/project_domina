@@ -16,10 +16,6 @@ CREATE TABLE IF NOT EXISTS tasks (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-INSERT INTO users (username, password) VALUES
-('prueba', '1234'),
-('admin', 'admin');
-
 INSERT INTO tasks (titulo, descripcion, completado) VALUES
 ('Tarea 1', 'Esta es la primera tarea de prueba', FALSE),
 ('Tarea 2', 'Segunda tarea para verificar la base de datos', TRUE);
