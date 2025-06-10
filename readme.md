@@ -7,29 +7,29 @@
 ## Arquitectura
 
 project_domina/
-├── docker-compose.yml
-├── db/
-│ └── init.sql  Script para inicializar la base de datos
-├── api/
-│ ├── auth-service/  Microservicio de autenticación
-│ └── task-service/  Microservicio de gestión de tareas
-└── app/  Frontend en React
+   docker-compose.yml
+   db/
+    init.sql   la base de datos
+   api/
+    auth-service/   autenticación
+    task-service/   tareas
+   app/  React
 
 
 # Tecnologías utilizadas
 
-- **Frontend**: React + Vite
-- **Backend**:
-  - `auth-service`: Node.js + Express + JWT + bcrypt
-  - `task-service`: Node.js + Express
-- **Base de datos**: MySQL
-- **Contenedores**: Docker + Docker Compose
+- Frontend: React
+- Backend:
+  -auth-service: Node.js + Express + JWT + bcrypt
+  -task-service: Node.js + Express
+- Base de datos: MySQL
+- Contenedores: Docker + Docker Compose
 
 # Instalación y ejecución
 
 ##  Clonar el repositorio
 
-```bash
+bash
 git clone https://github.com/tu_usuario/project_domina.git
 cd project_domina
 
@@ -38,7 +38,6 @@ cambiar .env.example a .env
 docker-compose down -v   # Limpia contenedores 
 docker-compose up --build #Construye y sube contenedores
 
-```
 ## Rutas 
 Servicio	Puerto local
 Frontend React	http://localhost:5173
