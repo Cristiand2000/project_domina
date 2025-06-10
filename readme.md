@@ -1,10 +1,10 @@
-# Project Domina 🧠
+# Project Domina 
 
-**Project Domina** es una aplicación web construida con arquitectura de microservicios para gestionar usuarios y tareas. Utiliza **Node.js**, **Express**, **MySQL**, **React**, y está completamente dockerizada para facilitar el despliegue.
+**Project Domina** es una aplicación web construida con microservicios usando  Node.js, Express, MySQL, React y utiliza docker  para facilitar el despliegue.
 
 ---
 
-## 🧱 Arquitectura
+## Arquitectura
 
 project_domina/
 ├── docker-compose.yml
@@ -16,7 +16,7 @@ project_domina/
 └── app/  Frontend en React
 
 
-## 🚀 Tecnologías utilizadas
+# Tecnologías utilizadas
 
 - **Frontend**: React + Vite
 - **Backend**:
@@ -25,9 +25,9 @@ project_domina/
 - **Base de datos**: MySQL
 - **Contenedores**: Docker + Docker Compose
 
-## ⚙️ Instalación y ejecución
+# Instalación y ejecución
 
-### 1. Clonar el repositorio
+##  Clonar el repositorio
 
 ```bash
 git clone https://github.com/tu_usuario/project_domina.git
@@ -35,10 +35,11 @@ cd project_domina
 
 cambiar .env.example a .env
 
-docker-compose down -v   # Limpia contenedores y volúmenes (opcional, pero útil en la primera instalación)
-docker-compose up --build
+docker-compose down -v   # Limpia contenedores 
+docker-compose up --build #Construye y sube contenedores
 
-
+```
+## Rutas 
 Servicio	Puerto local
 Frontend React	http://localhost:5173
 Auth Service	http://localhost:4000
