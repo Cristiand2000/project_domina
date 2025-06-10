@@ -33,8 +33,6 @@ bash
 git clone https://github.com/tu_usuario/project_domina.git
 cd project_domina
 
-cambiar .env.example a .env
-
 docker-compose down -v   # Limpia contenedores 
 docker-compose up --build #Construye y sube contenedores
 
