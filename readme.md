@@ -29,7 +29,6 @@ project_domina/
 
 ##  Clonar el repositorio
 
-bash
 git clone https://github.com/tu_usuario/project_domina.git
 cd project_domina
 
